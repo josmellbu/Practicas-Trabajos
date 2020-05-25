@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>juego</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<div class="juego">
+		<div>
+			<h1 align="center">TRES EN RAYA</h1>
+			<table align="center" border="1" class="start">
+			 	<tr>
+			  		<td width="150" height="150" id="c0" onclick="pcelda(0)"></td>
+			  		<td width="150" height="150" id="c1" onclick="pcelda(1)"></td>
+			  		<td width="100" height="150" id="c2" onclick="pcelda(2)"></td>
+			 	</tr>
+			 	<tr>
+			  		<td width="150" height="150" id="c3" onclick="pcelda(3)"></td>
+			  		<td width="150" height="150" id="c4" onclick="pcelda(4)"></td>
+			  		<td width="150" height="150" id="c5" onclick="pcelda(5)"></td>
+			 	</tr>
+			 	<tr>
+			  		<td width="150" height="150" id="c6" onclick="pcelda(6)"></td>
+			  		<td width="150" height="150" id="c7" onclick="pcelda(7)"></td>
+			  		<td width="150" height="150" id="c8" onclick="pcelda(8)"></td>
+			 	</tr>
+			</table>
+			<table align="center" border="0">
+			  	<tr>   
+			   		<td width="450"  align="center"><br />
+			    		<a href="javascript:location.reload()">
+			    		<button>Reiniciar</button></a>
+			   		</td>   
+			  	</tr>
+			</table>
+		</div>
+	</div>
+<div class="cronometro">
+    <div id="hms"></div>
+    <div class="boton stop"></div>
+    <div class="boton reiniciar"></div>
+</div>
+</body>
+</html>

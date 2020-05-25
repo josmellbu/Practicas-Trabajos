@@ -1,0 +1,71 @@
+body{
+    background:#000000;
+}
+.container{
+    background: indigo;
+    width: 1000px;
+    height: 950px;
+    margin: auto;
+}
+.box{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    float: left;
+    background: lemonchiffon;
+}
+.header{
+    height: 300px;
+}
+.banner{
+    width: 800px;
+    height: 300px;
+    float: left;
+    background-color: aquamarine;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: rgb(13, 98, 196);
+}
+.login{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: rgb(11, 170, 117);
+}
+.form{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: rgb(20, 214, 79);
+}
+.main{
+    height: 500px;
+}
+.aleft{
+    width: 200px;
+    height: 500px;
+    float: left;
+    background-color: #368360;
+}
+.article{
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-color: #35656e;
+}
+.aright{
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: #357467;
+}
+
+.footer{   
+    width: 1000px;
+    height: 50px;
+    background-color: chartreuse;
+    float: left;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+</head>
+<body>
+	<h1 align="center">iDESWEB</h1>
+	<h2 align="center">Fomulario de registro</h2>
+	<form action="">
+		<fieldset >
+			<legend>¿QUIÉN ERES?</legend>
+			<label>Nombre:</label><br>
+			<input type="text" name="nombres" placeholder="Ingrese sus nombres"><br>
+			<label>Apellidos:</label><br>
+			<input type="text" name="apellidos" placeholder="Ingrese sus apellidos"><br>
+			<label>Correo electrónico:</label><br>
+			<input type="email" required="true" placeholder="Ingrese su correo electrónico"><br>
+			<label>Fecha de nacimiento:</label><br>
+			<span>
+				<select name="Dia" id="dia">
+					<option value="0">Dia</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+				</select>
+			</span>
+			<span>
+				<select name="Mes" id="mes">
+					<option value="0">Mes</option>
+					<option value="1">Enero</option>
+					<option value="2">Febrero</option>
+					<option value="3">Marzo</option>
+					<option value="4">Abril</option>
+					<option value="5">Mayo</option>
+					<option value="6">Junio</option>
+					<option value="7">Julio</option>
+					<option value="8">Agosto</option>
+					<option value="9">Setiembre</option>
+					<option value="10">Octubre</option>
+					<option value="11">Noviembre</option>
+					<option value="12">Diciembre</option>
+				</select>
+			</span>
+			<span>
+				<select name="year" id="year">
+					<option value="0">Año</option>
+					<option value="1">2020</option>
+					<option value="2">2019</option>
+					<option value="3">2018</option>
+					<option value="4">2017</option>
+					<option value="5">2016</option>
+					<option value="6">2015</option>
+					<option value="7">2014</option>
+					<option value="8">2013</option>
+					<option value="9">2012</option>
+					<option value="10">2011</option>
+					<option value="11">2010</option>
+					<option value="12">2009</option>
+					<option value="13">2008</option>
+				</select>
+			</span>
+		</fieldset>
+		<fieldset>
+			<legend>¿DE DÓNDE ERES?</legend>
+			<label>Ciudad:</label><br>
+			<input type="text" name="ciudad" placeholder="Ingrese su ciudad"><br>
+			<label>Código postal</label><br>
+			<input type="number" name="codigop" placeholder="Ingrese su codigo postal"><br>
+			<label for="">País:</label><br>
+			<span>
+				<select name="pais" id="pais">
+					<option value="0">País</option>
+					<option value="0">Argentina</option>
+					<option value="0">Bolivia</option>
+					<option value="0">Brasil</option>
+					<option value="0">Chile</option>
+					<option value="0">Colombia</option>
+					<option value="0">Ecuador</option>
+					<option value="0">Guyana</option>
+					<option value="0">Paraguay</option>
+					<option value="0">Perú</option>
+					<option value="0">Surinam</option>
+					<option value="0">Uruguay</option>
+					<option value="0">Venezuela</option>
+				</select>
+			</span>
+		</fieldset>
+		<fieldset>
+			<legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+			<label for="">Nombre de usuario</label><br>
+			<input type="text" name="nu" placeholder="Usuario"><br>
+			<label for="">Contraseña:</label><br>
+			<input type="password" name="passw" required="true" placeholder="Contraseña"><br>
+			<label for="">Vuelve a escribir la contraseña:</label><br>
+			<input type="password" name="recontra" required="true" placeholder="Repita la Contraseña"><br>
+		</fieldset>
+		<fieldset>
+			<legend>CONDICIONES DE REGISTRO</legend>
+			<label for="">Deseo recicir ofertas de iDESWEB</label><br>
+			<input type="radio" name="opcion" checked="true">Una vez al dia
+			<input type="radio" name="opcion">Una vez a la semana
+			<input type="radio" name="opcion">Una vez al mes
+			<br>
+			<input type="checkbox" required="true" name="acuerdo">Acepto el acuerdo de servicios, la declaracion de privacidad y la declaración de uso de cookies
+		</fieldset>
+		<input type="submit" name="cuenta" value="Crear cuenta">
+	</form>
+	<h1 align="center">Rellena tu CV</h1>
+	<label>Nombres:</label><br>
+	<input type="text" name="nombres2" required="true" placeholder="Ingrese sus nombres"><br>
+	<label>Apellidos:</label><br>
+	<input type="text" name="apellidos2" required="true" placeholder="Ingrese sus apellidos"><br>
+	<label>Contraseña:</label><br>
+	<input type="password" name="contra" required="true" placeholder="Ingrese su contraseña"><br>
+	<label>DNI:</label><br>
+	<input type="number" name="dni" required="true" placeholder="Ingrese su N° de DNI"><br>
+	<label>Sexo:</label><br>
+	<input type="radio" name="sexo" required="true">Hombre<br>
+	<input type="radio" name="sexo">Mujer<<br>
+	<br>
+	<label>Incluir foto:</label>
+	<input type="file" name="foto">
+	<input type="submit" value="Elegir"><br>
+	<br>
+	<input type="checkbox">Suscribirme al boletín de novedades<br>
+	<br>
+	<input type="submit" name="enviar" value="Guardar cambios">
+	<input type="reset" name="borrar" value="Borrar los datos introducidos">
+</body>
+</html>

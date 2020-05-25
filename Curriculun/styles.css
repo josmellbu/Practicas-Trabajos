@@ -1,0 +1,42 @@
+	body{
+		background-color: #ABEBC6;
+		font-family: Arial;
+	}
+	h4{
+		margin: 0px;
+		margin-top: 10px;
+		padding: 0px
+	}
+	h5, h6{
+		margin: 0px;
+		padding: 0px
+	}
+	table{
+		background-color: #FAD7A0;
+		border-radius: 20px;
+	}
+	#pagina{
+		box-shadow: 0px 0px 10px white;
+	}
+	#foto{
+		width: 200px;
+		border-radius: 50%;
+		box-shadow:5px 5px 5px black;
+		border: solid 5px white;
+	}
+	#fecha{
+		margin-top: 10px; 
+	}
+	.titulo1{
+		text-align: center;
+		text-shadow: 2px 2px 2px white;
+	}
+	.tableC{
+		box-shadow: 0px 0px 10px white;
+	}
+	.linea{
+		border-bottom: solid 2px white;
+	}
+	.arriba{
+		vertical-align: top;
+	}
