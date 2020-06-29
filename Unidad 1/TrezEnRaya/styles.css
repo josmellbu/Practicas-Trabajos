@@ -3,17 +3,30 @@
     font-family:alarm;
     src:url(alarm.ttf);
 }
+body{
+    color: white;
+}
+.juego{
+    background: url(img/fondo.jpg);
+    width: 100%;
+    height: 970px;
+}
 .juego{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.sec1 h1{
+    margin: 20px; 
 }
 .cronometro{
     width:200px;
-    height:100px;
-    top:70%;
+    height:70px;
+    top:90%;
     left:50%;
+    background: white;
     position:absolute;
-    margin-top:-50px;
+    margin-top:0px;
     margin-left:-100px;
     text-align:center;
 } 
