@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "appfurniture-1b64f": {
+      "hosting": {
+        "appFurniture": [
+          "appfurniture-1b64f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "appfurniture-61a14"
+  }
+}

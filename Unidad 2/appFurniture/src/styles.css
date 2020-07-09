@@ -1,0 +1,295 @@
+.bg {
+background-image: url("./assets/sec1.jpg");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.destacado{
+    margin: 30% 0;
+}
+.footer{
+	margin: 40px 0;
+}
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+}
+.color{
+	background-color: #F8F8F8;
+}
+.separado{
+	padding: 0 10%;
+}
+	.header{
+		margin: 20px 0 20px 0;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		.menu{
+			text-align: center;
+			display: flex;
+			align-items: center;
+		}
+		.menu div{
+			margin: 10px 0;
+		}
+		.menu img{
+			width: 100%;
+			max-width: 150px;
+		}
+		.menu a{
+			color: #303030;
+		}
+			.cel{
+				flex: 20%;
+			}
+			.ubicacion{
+				flex: 20%;
+			}
+			.logo{
+				flex: 20%;
+			}
+			.envio{
+				flex: 20%;
+			}
+			.items{
+				flex: 20%;
+				display: flex;
+				align-items: center;
+			}
+				.kora{
+					flex: 25%;
+				}
+				.men{
+					flex: 25%;
+				}
+				.lupa{
+					flex: 25%;
+				}
+				.carro{
+					flex: 25%;
+				}
+	/*(NAVEGACION)*/
+	.nav{
+		margin: 10px 0 20px 0;
+	}
+		.submenu{
+			text-align: center;
+		}
+		.submenu li{
+			display: inline-block;
+			font-size: 15px;
+			padding: 0 30px;
+			letter-spacing: 2px;
+		}
+	.promo1{
+		background: url(./assets/sec1.jpg);
+		background-position: center;
+		background-attachment: contain;
+		background-size: cover;
+	}
+		.destacado{
+			margin: 20% 0 26% 0;
+			font-size: 2em;
+		}
+		.destacado button{
+			margin-top: 20px;
+			border: none;
+			background-color: #FF4C34;
+			width: 200px;
+			height: 60px;
+			font-size: 0.7em;
+			letter-spacing: 1px;
+			color: #f8f8f8;
+		}
+	.section{
+		padding-bottom: 100px; 
+		display: flex;
+		flex-flow: column nowrap;
+	}
+		.categoria{
+			display: flex;
+			flex-flow: row wrap;
+		}
+			.text{
+				padding: 50px 0 30px 0;
+				flex: 1 1 100%;
+			}
+			.fotos{
+				margin: 0 10px;
+				flex: 1 1 40%;
+			}
+			.fotos img{
+				padding: 10px 0;
+				width: 100%;
+			}
+			.titulo{
+				padding: 50px 0 30px 0;
+			}
+			.catalogo{
+				/*display: flex;
+				justify-content: center;
+				align-items: center;*/
+			}
+			.catalogo ul{
+				list-style: none;
+			}
+				/*.producto{
+					border: solid 1px #dbdbdb;
+					border-radius: 5px;
+					margin: 10px;
+					padding: 20px;
+					flex: 25%;
+				}*/
+				.producto{
+					position: relative;
+					flex-direction: column;
+					margin: 10px;
+					width: 350px;
+					min-width: 290px;
+					height: auto;
+					max-height: 563.23px;
+					min-height: 428.31px;
+					padding: 20px;
+					border-radius: 10px;
+					box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+				}
+				.sale{
+					position: absolute;
+					top: 15px;
+					left: 20px;
+					text-align: center;
+					height: 29px;
+					width: 60px;
+					padding: 5px;
+					background-color: #FF4C34;
+					color: white;
+					letter-spacing: 0.2em;
+					-webkit-transform: rotate(-90deg);
+				}
+				.new{
+					position: absolute;
+					top: 15px;
+					left: 20px;
+					text-align: center;
+					height: 29px;
+					width: 60px;
+					padding: 5px;
+					background-color: rgb(53,208,115);
+					color: white;
+					letter-spacing: 0.2em;
+					-webkit-transform: rotate(-90deg);
+				}
+				.producto{
+					display: flex;
+					flex-flow: column;
+				}
+				.producto img{
+					align-self: center;
+					width: auto;
+					max-width: 247px;
+					height: auto;
+					max-height: 206.23px;
+				}
+				.producto img, h1, h3{
+					margin: 10px 0;
+				}
+					.costo{
+						flex: 100%;
+						margin-top: 30px;
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+					}
+					.costo div{
+						flex: 0 1 auto;
+						text-align: center;
+					}
+					.boton button{
+						background-color: #FF4C34;
+						border: none;
+						width: 140px;
+						height: 50px;
+						letter-spacing: 1px;
+						font-size: 1em;
+						color: #f8f8f8;
+					}
+	.promo2{
+		background: url(./assets/sec2.jpg);
+		background-position: center;
+		background-attachment: contain;
+		background-size: cover;
+	}
+	.sect{
+		border-top: 1px solid silver;
+		border-bottom: solid 1px silver;
+		margin-bottom: 100px;
+	}
+	.ingresa{
+		margin: 100px 0;
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+		.msj{
+			flex: 30%;
+		}
+		.ingre{
+			text-align: right;
+			flex: 50%;
+		}
+		.ingre input{
+			text-align: left;
+			margin: 0 -3px;
+			padding-left: 20px;
+			width: 400px;
+			height: 40px;
+			font-size: 1em;
+			background: transparent;
+			border: solid 1px silver;
+		}
+		.ingre button{
+			margin: 0 -3px;
+			width: 200px;
+			height: 40px;
+			background-color: #FF4C34;
+			border: none;
+			letter-spacing: 1px;
+			font-size: 1em;
+			color: #f8f8f8;
+		}
+		.ingre p{
+			margin-top: 20px
+		}
+	.footer{
+		display: flex;
+	}
+		.sec{
+			flex: 1 1 auto;
+		}
+		.secp{
+			flex: 2 1 auto;
+		}
+		.sec li{
+			display: inline-block;
+		}
+		.sec img{
+			width: 100%;
+			max-width: 150px;
+		}
+		.secp li{
+			display: inline-block;
+		}
+		.secp img{
+			width: 100%;
+			max-width: 30px;
+		}
+		.bug{
+			color: #303030;
+			margin-left: -18px;
+			margin-right: 10px;
+		}
+		.bug a{
+			color: #303030;
+		}

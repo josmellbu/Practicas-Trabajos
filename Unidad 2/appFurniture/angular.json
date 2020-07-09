@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "appPagina": {
+    "appFurniture": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/appPagina",
+            "outputPath": "dist/appFurniture",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,9 +25,14 @@
             ],
             "styles": [
               "src/styles.css",
-              ""
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/popper.js/dist/popper2.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -63,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "appPagina:build"
+            "browserTarget": "appFurniture:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "appPagina:build:production"
+              "browserTarget": "appFurniture:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "appPagina:build"
+            "browserTarget": "appFurniture:build"
           }
         },
         "test": {
@@ -111,15 +116,20 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "appPagina:serve"
+            "devServerTarget": "appFurniture:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "appPagina:serve:production"
+              "devServerTarget": "appFurniture:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "appPagina"
+    }
+  },
+  "defaultProject": "appFurniture"
 }

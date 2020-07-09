@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+    <a class="navbar-brand mr-0 text-center navbar-toggler border-0 justify-content-center" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="./assets/logo.jpg" style="max-width: 150px;" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav h5">
+        <li class="nav-item mx-5">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+      <a class="navbar-brand mr-0 mx-5 text-center" href="#"><img src="./assets/logo.jpg" style="max-width: 150px;" alt=""></a>
+      <ul class="navbar-nav h5">
+        <li class="nav-item mx-5">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-5">
+          <div>
+            <input type="button" class="btn btn-success" value="Login" routerLink="login" *ngIf="!isLogin">
+            <input type="button" class="btn btn-danger" value="Salir" (click)="onLogout()" *ngIf="isLogin">
+          </div>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
